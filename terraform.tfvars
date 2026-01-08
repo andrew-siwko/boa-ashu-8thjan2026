@@ -1,3 +1,3 @@
-vm-size = "t2.small"
-vm-name = "ashugit-vm-day3"
+vm-size = "t3.micro"
+vm-name = "ashugit-vm1-day3"
 
