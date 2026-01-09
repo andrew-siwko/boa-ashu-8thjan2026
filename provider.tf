@@ -11,7 +11,7 @@ terraform {
     key = "dev/asiwko/terraform.tfstate"
     encrypt = true
     region = "us-east-1"
-    dynamodb_table = "asiwko-tf-locks"
+    #dynamodb_table = "asiwko-tf-locks"
     
   }
 }
