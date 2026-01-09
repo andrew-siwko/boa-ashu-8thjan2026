@@ -7,11 +7,11 @@ terraform {
   }
   # terraform tfstate file remote backend section 
   backend "s3" {
-    bucket = "ashutoshh-jan26-terraform"
-    key = "dev/ashutoshh/terraform.tfstate"
+    bucket = "asiwko-terraform-state-bucket"
+    key = "dev/asiwko/terraform.tfstate"
     encrypt = true
-    region = "us-west-1"
-    dynamodb_table = "ashutoshh-locking-table1"
+    region = "us-east-1"
+    dynamodb_table = "asiwko-tf-locks"
     
   }
 }
