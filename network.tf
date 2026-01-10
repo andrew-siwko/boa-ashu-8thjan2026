@@ -1,7 +1,3 @@
-# 1. Define the Provider
-provider "aws" {
-  region = "us-east-1" # Change to your preferred region
-}
 
 # 2. Create the VPC
 resource "aws_vpc" "main_vpc" {
