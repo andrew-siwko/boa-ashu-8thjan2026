@@ -6,13 +6,13 @@ variable "ashu-ami" {
 
 variable "vm-size" {
     type = string
-    #default = "t3.micro"
+    default = "t3.micro"
   
 }
 
 variable "vm-name" {
     type = string
-    #default = "ashu-vm1"
+    default = "asiwko-vm1"
   
 }
 variable "novm" {

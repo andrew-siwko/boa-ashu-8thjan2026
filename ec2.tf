@@ -8,6 +8,6 @@ resource "aws_instance" "example" {
 
   tags = {
     #Name = "${var.vm-name}-${count.index}"
-    Name = "ashu-vm-${each.key}"
+    Name = "asiwko-vm-${each.key}"
   }
 }
